@@ -12,10 +12,38 @@ This is something I just made on the spot because I didn't want to pay for premi
 - Skips existing Lyrics
 - Translates to Romaji if possible
 
-
 ## Usage
 
-Download and open `Lyric Find.py` and edit the `directory` variable to where you have your songs saved.
+### Method 1
+
+1. Download and Extract the [latest release](https://github.com/MiekoHikari/Automus-Lyre/releases/tag/release)
+2. Open terminal in the extracted folder
+3. Run
+```
+"Lyric Find.exe"
+```
+
+### Method 2
+
+1. Download and Install Python
+2. Run
+```
+pip install syncedlyrics cutlet
+```
+3. Download and open `Lyric Find.py`
+
+## Build
+
+1. Download and Install Python
+2. Run
+```
+pip install syncedlyrics cutlet cx_freeze
+```
+3. Run
+```
+python LyricPack.py build
+```
+
 ## Authors
 
 - [@miekohikari](https://www.github.com/miekohikari)
